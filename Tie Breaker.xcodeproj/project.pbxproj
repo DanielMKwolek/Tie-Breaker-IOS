@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DB247E021FE6A52000319E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB247DF21FE6A52000319E1 /* AppDelegate.swift */; };
+		2DB247E221FE6A52000319E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB247E121FE6A52000319E1 /* ViewController.swift */; };
+		2DB247E521FE6A52000319E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB247E321FE6A52000319E1 /* Main.storyboard */; };
+		2DB247E721FE6A54000319E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB247E621FE6A54000319E1 /* Assets.xcassets */; };
+		2DB247EA21FE6A54000319E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB247E821FE6A54000319E1 /* LaunchScreen.storyboard */; };
+		2DB247F521FE6A55000319E1 /* Tie_BreakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB247F421FE6A55000319E1 /* Tie_BreakerTests.swift */; };
+		2DB2480021FE6A55000319E1 /* Tie_BreakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB247FF21FE6A55000319E1 /* Tie_BreakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DB247F121FE6A55000319E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DB247D421FE6A52000319E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DB247DB21FE6A52000319E1;
+			remoteInfo = "Tie Breaker";
+		};
+		2DB247FC21FE6A55000319E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DB247D421FE6A52000319E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DB247DB21FE6A52000319E1;
+			remoteInfo = "Tie Breaker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DB247DC21FE6A52000319E1 /* Tie Breaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tie Breaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB247DF21FE6A52000319E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DB247E121FE6A52000319E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DB247E421FE6A52000319E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DB247E621FE6A54000319E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DB247E921FE6A54000319E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DB247EB21FE6A54000319E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB247F021FE6A55000319E1 /* Tie BreakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tie BreakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB247F421FE6A55000319E1 /* Tie_BreakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tie_BreakerTests.swift; sourceTree = "<group>"; };
+		2DB247F621FE6A55000319E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB247FB21FE6A55000319E1 /* Tie BreakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tie BreakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB247FF21FE6A55000319E1 /* Tie_BreakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tie_BreakerUITests.swift; sourceTree = "<group>"; };
+		2DB2480121FE6A55000319E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DB247D921FE6A52000319E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB247ED21FE6A54000319E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB247F821FE6A55000319E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DB247D321FE6A52000319E1 = {
+			isa = PBXGroup;
+			children = (
+				2DB247DE21FE6A52000319E1 /* Tie Breaker */,
+				2DB247F321FE6A55000319E1 /* Tie BreakerTests */,
+				2DB247FE21FE6A55000319E1 /* Tie BreakerUITests */,
+				2DB247DD21FE6A52000319E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DB247DD21FE6A52000319E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DB247DC21FE6A52000319E1 /* Tie Breaker.app */,
+				2DB247F021FE6A55000319E1 /* Tie BreakerTests.xctest */,
+				2DB247FB21FE6A55000319E1 /* Tie BreakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DB247DE21FE6A52000319E1 /* Tie Breaker */ = {
+			isa = PBXGroup;
+			children = (
+				2DB247DF21FE6A52000319E1 /* AppDelegate.swift */,
+				2DB247E121FE6A52000319E1 /* ViewController.swift */,
+				2DB247E321FE6A52000319E1 /* Main.storyboard */,
+				2DB247E621FE6A54000319E1 /* Assets.xcassets */,
+				2DB247E821FE6A54000319E1 /* LaunchScreen.storyboard */,
+				2DB247EB21FE6A54000319E1 /* Info.plist */,
+			);
+			path = "Tie Breaker";
+			sourceTree = "<group>";
+		};
+		2DB247F321FE6A55000319E1 /* Tie BreakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DB247F421FE6A55000319E1 /* Tie_BreakerTests.swift */,
+				2DB247F621FE6A55000319E1 /* Info.plist */,
+			);
+			path = "Tie BreakerTests";
+			sourceTree = "<group>";
+		};
+		2DB247FE21FE6A55000319E1 /* Tie BreakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DB247FF21FE6A55000319E1 /* Tie_BreakerUITests.swift */,
+				2DB2480121FE6A55000319E1 /* Info.plist */,
+			);
+			path = "Tie BreakerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DB247DB21FE6A52000319E1 /* Tie Breaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB2480421FE6A55000319E1 /* Build configuration list for PBXNativeTarget "Tie Breaker" */;
+			buildPhases = (
+				2DB247D821FE6A52000319E1 /* Sources */,
+				2DB247D921FE6A52000319E1 /* Frameworks */,
+				2DB247DA21FE6A52000319E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tie Breaker";
+			productName = "Tie Breaker";
+			productReference = 2DB247DC21FE6A52000319E1 /* Tie Breaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DB247EF21FE6A54000319E1 /* Tie BreakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB2480721FE6A55000319E1 /* Build configuration list for PBXNativeTarget "Tie BreakerTests" */;
+			buildPhases = (
+				2DB247EC21FE6A54000319E1 /* Sources */,
+				2DB247ED21FE6A54000319E1 /* Frameworks */,
+				2DB247EE21FE6A54000319E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DB247F221FE6A55000319E1 /* PBXTargetDependency */,
+			);
+			name = "Tie BreakerTests";
+			productName = "Tie BreakerTests";
+			productReference = 2DB247F021FE6A55000319E1 /* Tie BreakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DB247FA21FE6A55000319E1 /* Tie BreakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB2480A21FE6A55000319E1 /* Build configuration list for PBXNativeTarget "Tie BreakerUITests" */;
+			buildPhases = (
+				2DB247F721FE6A55000319E1 /* Sources */,
+				2DB247F821FE6A55000319E1 /* Frameworks */,
+				2DB247F921FE6A55000319E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DB247FD21FE6A55000319E1 /* PBXTargetDependency */,
+			);
+			name = "Tie BreakerUITests";
+			productName = "Tie BreakerUITests";
+			productReference = 2DB247FB21FE6A55000319E1 /* Tie BreakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DB247D421FE6A52000319E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Daniel Kwolek";
+				TargetAttributes = {
+					2DB247DB21FE6A52000319E1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2DB247EF21FE6A54000319E1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2DB247DB21FE6A52000319E1;
+					};
+					2DB247FA21FE6A55000319E1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2DB247DB21FE6A52000319E1;
+					};
+				};
+			};
+			buildConfigurationList = 2DB247D721FE6A52000319E1 /* Build configuration list for PBXProject "Tie Breaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DB247D321FE6A52000319E1;
+			productRefGroup = 2DB247DD21FE6A52000319E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DB247DB21FE6A52000319E1 /* Tie Breaker */,
+				2DB247EF21FE6A54000319E1 /* Tie BreakerTests */,
+				2DB247FA21FE6A55000319E1 /* Tie BreakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DB247DA21FE6A52000319E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB247EA21FE6A54000319E1 /* LaunchScreen.storyboard in Resources */,
+				2DB247E721FE6A54000319E1 /* Assets.xcassets in Resources */,
+				2DB247E521FE6A52000319E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB247EE21FE6A54000319E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB247F921FE6A55000319E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DB247D821FE6A52000319E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB247E221FE6A52000319E1 /* ViewController.swift in Sources */,
+				2DB247E021FE6A52000319E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB247EC21FE6A54000319E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB247F521FE6A55000319E1 /* Tie_BreakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB247F721FE6A55000319E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB2480021FE6A55000319E1 /* Tie_BreakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DB247F221FE6A55000319E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DB247DB21FE6A52000319E1 /* Tie Breaker */;
+			targetProxy = 2DB247F121FE6A55000319E1 /* PBXContainerItemProxy */;
+		};
+		2DB247FD21FE6A55000319E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DB247DB21FE6A52000319E1 /* Tie Breaker */;
+			targetProxy = 2DB247FC21FE6A55000319E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DB247E321FE6A52000319E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB247E421FE6A52000319E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DB247E821FE6A54000319E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB247E921FE6A54000319E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DB2480221FE6A55000319E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DB2480321FE6A55000319E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DB2480521FE6A55000319E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X73W8XUKWH;
+				INFOPLIST_FILE = "Tie Breaker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielKwolek.Tie-Breaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DB2480621FE6A55000319E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X73W8XUKWH;
+				INFOPLIST_FILE = "Tie Breaker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielKwolek.Tie-Breaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DB2480821FE6A55000319E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X73W8XUKWH;
+				INFOPLIST_FILE = "Tie BreakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielKwolek.Tie-BreakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tie Breaker.app/Tie Breaker";
+			};
+			name = Debug;
+		};
+		2DB2480921FE6A55000319E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X73W8XUKWH;
+				INFOPLIST_FILE = "Tie BreakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielKwolek.Tie-BreakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tie Breaker.app/Tie Breaker";
+			};
+			name = Release;
+		};
+		2DB2480B21FE6A55000319E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X73W8XUKWH;
+				INFOPLIST_FILE = "Tie BreakerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielKwolek.Tie-BreakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tie Breaker";
+			};
+			name = Debug;
+		};
+		2DB2480C21FE6A55000319E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X73W8XUKWH;
+				INFOPLIST_FILE = "Tie BreakerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielKwolek.Tie-BreakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tie Breaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DB247D721FE6A52000319E1 /* Build configuration list for PBXProject "Tie Breaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB2480221FE6A55000319E1 /* Debug */,
+				2DB2480321FE6A55000319E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB2480421FE6A55000319E1 /* Build configuration list for PBXNativeTarget "Tie Breaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB2480521FE6A55000319E1 /* Debug */,
+				2DB2480621FE6A55000319E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB2480721FE6A55000319E1 /* Build configuration list for PBXNativeTarget "Tie BreakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB2480821FE6A55000319E1 /* Debug */,
+				2DB2480921FE6A55000319E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB2480A21FE6A55000319E1 /* Build configuration list for PBXNativeTarget "Tie BreakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB2480B21FE6A55000319E1 /* Debug */,
+				2DB2480C21FE6A55000319E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DB247D421FE6A52000319E1 /* Project object */;
+}
