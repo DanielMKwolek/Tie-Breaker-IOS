@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4DFE6121FE96A500DA8DF6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DFE6021FE96A500DA8DF6 /* MainViewController.swift */; };
 		2DB247E021FE6A52000319E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB247DF21FE6A52000319E1 /* AppDelegate.swift */; };
-		2DB247E221FE6A52000319E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB247E121FE6A52000319E1 /* ViewController.swift */; };
 		2DB247E521FE6A52000319E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB247E321FE6A52000319E1 /* Main.storyboard */; };
 		2DB247E721FE6A54000319E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB247E621FE6A54000319E1 /* Assets.xcassets */; };
 		2DB247EA21FE6A54000319E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB247E821FE6A54000319E1 /* LaunchScreen.storyboard */; };
 		2DB247F521FE6A55000319E1 /* Tie_BreakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB247F421FE6A55000319E1 /* Tie_BreakerTests.swift */; };
 		2DB2480021FE6A55000319E1 /* Tie_BreakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB247FF21FE6A55000319E1 /* Tie_BreakerUITests.swift */; };
+		2DCA0D7721FE7F8E00901CA4 /* CoinFlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0D7621FE7F8E00901CA4 /* CoinFlipViewController.swift */; };
+		2DCA0D7921FE849100901CA4 /* CoinFlipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0D7821FE849100901CA4 /* CoinFlipTableViewCell.swift */; };
+		2DCA0D7B21FE86FE00901CA4 /* TopLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0D7A21FE86FE00901CA4 /* TopLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D4DFE6021FE96A500DA8DF6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2DB247DC21FE6A52000319E1 /* Tie Breaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tie Breaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB247DF21FE6A52000319E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DB247E121FE6A52000319E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DB247E421FE6A52000319E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DB247E621FE6A54000319E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DB247E921FE6A54000319E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		2DB247FB21FE6A55000319E1 /* Tie BreakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tie BreakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB247FF21FE6A55000319E1 /* Tie_BreakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tie_BreakerUITests.swift; sourceTree = "<group>"; };
 		2DB2480121FE6A55000319E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCA0D7621FE7F8E00901CA4 /* CoinFlipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipViewController.swift; sourceTree = "<group>"; };
+		2DCA0D7821FE849100901CA4 /* CoinFlipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipTableViewCell.swift; sourceTree = "<group>"; };
+		2DCA0D7A21FE86FE00901CA4 /* TopLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				2DB247DF21FE6A52000319E1 /* AppDelegate.swift */,
-				2DB247E121FE6A52000319E1 /* ViewController.swift */,
 				2DB247E321FE6A52000319E1 /* Main.storyboard */,
+				2D4DFE6021FE96A500DA8DF6 /* MainViewController.swift */,
+				2DCA0D7A21FE86FE00901CA4 /* TopLevel.swift */,
+				2DCA0D7621FE7F8E00901CA4 /* CoinFlipViewController.swift */,
+				2DCA0D7821FE849100901CA4 /* CoinFlipTableViewCell.swift */,
 				2DB247E621FE6A54000319E1 /* Assets.xcassets */,
 				2DB247E821FE6A54000319E1 /* LaunchScreen.storyboard */,
 				2DB247EB21FE6A54000319E1 /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DB247E221FE6A52000319E1 /* ViewController.swift in Sources */,
+				2DCA0D7721FE7F8E00901CA4 /* CoinFlipViewController.swift in Sources */,
+				2DCA0D7921FE849100901CA4 /* CoinFlipTableViewCell.swift in Sources */,
 				2DB247E021FE6A52000319E1 /* AppDelegate.swift in Sources */,
+				2DCA0D7B21FE86FE00901CA4 /* TopLevel.swift in Sources */,
+				2D4DFE6121FE96A500DA8DF6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
