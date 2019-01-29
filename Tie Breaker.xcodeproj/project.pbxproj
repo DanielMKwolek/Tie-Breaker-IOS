@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D4DFE6121FE96A500DA8DF6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DFE6021FE96A500DA8DF6 /* MainViewController.swift */; };
+		2D85B06F21FF6B6400B45584 /* CoinFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85B06E21FF6B6400B45584 /* CoinFlipper.swift */; };
 		2DB247E021FE6A52000319E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB247DF21FE6A52000319E1 /* AppDelegate.swift */; };
 		2DB247E521FE6A52000319E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB247E321FE6A52000319E1 /* Main.storyboard */; };
 		2DB247E721FE6A54000319E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB247E621FE6A54000319E1 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		2D4DFE6021FE96A500DA8DF6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2D85B06E21FF6B6400B45584 /* CoinFlipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipper.swift; sourceTree = "<group>"; };
 		2DB247DC21FE6A52000319E1 /* Tie Breaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tie Breaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB247DF21FE6A52000319E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DB247E421FE6A52000319E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D85B07021FFD39400B45584 /* CoinFlipper */ = {
+			isa = PBXGroup;
+			children = (
+				2DCA0D7621FE7F8E00901CA4 /* CoinFlipViewController.swift */,
+				2DCA0D7821FE849100901CA4 /* CoinFlipTableViewCell.swift */,
+				2D85B06E21FF6B6400B45584 /* CoinFlipper.swift */,
+			);
+			name = CoinFlipper;
+			sourceTree = "<group>";
+		};
 		2DB247D321FE6A52000319E1 = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +119,7 @@
 				2DB247E321FE6A52000319E1 /* Main.storyboard */,
 				2D4DFE6021FE96A500DA8DF6 /* MainViewController.swift */,
 				2DCA0D7A21FE86FE00901CA4 /* TopLevel.swift */,
-				2DCA0D7621FE7F8E00901CA4 /* CoinFlipViewController.swift */,
-				2DCA0D7821FE849100901CA4 /* CoinFlipTableViewCell.swift */,
+				2D85B07021FFD39400B45584 /* CoinFlipper */,
 				2DB247E621FE6A54000319E1 /* Assets.xcassets */,
 				2DB247E821FE6A54000319E1 /* LaunchScreen.storyboard */,
 				2DB247EB21FE6A54000319E1 /* Info.plist */,
@@ -267,6 +278,7 @@
 			files = (
 				2DCA0D7721FE7F8E00901CA4 /* CoinFlipViewController.swift in Sources */,
 				2DCA0D7921FE849100901CA4 /* CoinFlipTableViewCell.swift in Sources */,
+				2D85B06F21FF6B6400B45584 /* CoinFlipper.swift in Sources */,
 				2DB247E021FE6A52000319E1 /* AppDelegate.swift in Sources */,
 				2DCA0D7B21FE86FE00901CA4 /* TopLevel.swift in Sources */,
 				2D4DFE6121FE96A500DA8DF6 /* MainViewController.swift in Sources */,
@@ -447,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X73W8XUKWH;
 				INFOPLIST_FILE = "Tie Breaker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X73W8XUKWH;
 				INFOPLIST_FILE = "Tie Breaker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
