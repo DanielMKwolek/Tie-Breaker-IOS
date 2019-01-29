@@ -111,20 +111,20 @@
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="i7g-sH-KId">
                                 <rect key="frame" x="4" y="64" width="371" height="29"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# Flips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwq-oL-wax">
-                                        <rect key="frame" x="0.0" y="8.5" width="50.5" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# Generate Flips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwq-oL-wax">
+                                        <rect key="frame" x="0.0" y="8.5" width="125.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" wraps="YES" maximumValue="1000" translatesAutoresizingMaskIntoConstraints="NO" id="Li5-ed-5Bs">
-                                        <rect key="frame" x="66.5" y="0.0" width="94" height="29"/>
+                                        <rect key="frame" x="141.5" y="0.0" width="94" height="29"/>
                                         <connections>
                                             <action selector="flipsValueChanged:" destination="8Wg-sU-dxf" eventType="valueChanged" id="Ns5-R6-ogJ"/>
                                         </connections>
                                     </stepper>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjC-Jy-TSP">
-                                        <rect key="frame" x="176.5" y="8.5" width="194.5" height="20.5"/>
+                                        <rect key="frame" x="251.5" y="8.5" width="119.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -192,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="frX-IK-bVT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1850.4000000000001" y="28.335832083958024"/>
+            <point key="canvasLocation" x="2049" y="-253"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qYY-FI-zVL">

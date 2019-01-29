@@ -7,17 +7,3 @@
 //
 
 import Foundation
-
-enum CoinFlip: String {
-    case heads = "Heads"
-    case tails = "Tails"
-}
-
-func generateCoinFlip() -> CoinFlip {
-    let i = arc4random() % 2
-    if i == 1 {
-        return .heads
-    } else {
-        return .tails
-    }
-}
